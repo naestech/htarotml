@@ -1856,23 +1856,46 @@ ___| \\\  _\\\@@@/ \\\ \\\
             font-family: 'Times New Roman', serif !important;
             color: darkblue !important;
             border: none !important;
-            background: none !important;
+            background: transparent !important;
+            background-color: transparent !important;
             padding: 0 !important;
             margin: 0 !important;
+            box-shadow: none !important;
+            text-shadow: none !important;
+            filter: none !important;
         }
         
         #html-energy-webring a {
             color: darkblue !important;
-            text-decoration: underline !important;
+            text-decoration: none !important;
+            background: transparent !important;
+            background-color: transparent !important;
+            border: none !important;
+            box-shadow: none !important;
+            text-shadow: none !important;
+            filter: none !important;
         }
         
-        #html-energy-webring * {
+        #html-energy-webring a:hover {
+            color: darkblue !important;
+            text-decoration: underline !important;
+            background: transparent !important;
+            background-color: transparent !important;
+        }
+        
+        #html-energy-webring *,
+        #html-energy-webring *::before,
+        #html-energy-webring *::after {
             color: darkblue !important;
             border: none !important;
-            background: none !important;
+            background: transparent !important;
+            background-color: transparent !important;
             box-shadow: none !important;
             outline: none !important;
             text-transform: lowercase !important;
+            text-shadow: none !important;
+            filter: none !important;
+            font-family: 'Times New Roman', serif !important;
         }
     </style>
 
